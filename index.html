@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#f2eee7"><meta name="description" content="Urban Drop: streetwear, denim, hoodies y prendas de temporada.">
+<title>URBAN DROP — Streetwear Supply</title>
+<link rel="manifest" href="manifest.json"><link rel="icon" href="assets/icons/icon.svg"><link rel="stylesheet" href="css/styles.css?v=3">
+</head>
+<body>
+<div class="site">
+<header class="header">
+ <a class="logo" href="#" data-view="home"><span class="logo-box">UD</span><span>URBAN DROP<small>STREETWEAR SUPPLY CO.</small></span></a>
+ <nav class="desktop-nav"><button class="nav active" data-view="home">INICIO</button><button class="nav" data-view="catalog">CATÁLOGO</button><button class="nav" data-view="season">TEMPORADA</button><button class="nav" data-view="about">LA TIENDA</button></nav>
+ <div class="header-right"><span class="stock-pill"><i></i> DROP 01 / 2026</span><button id="themeBtn" class="theme" aria-label="Cambiar tema">◐</button><button id="menuBtn" class="menu" aria-label="Menú">☰</button></div>
+ <div id="mobileMenu" class="mobile-menu"><button data-view="home">Inicio</button><button data-view="catalog">Catálogo</button><button data-view="season">Temporada</button><button data-view="about">La tienda</button></div>
+</header>
+<main>
+<section class="screen active" id="home">
+ <div class="home-left"><div class="kicker">INDEPENDENT STREETWEAR · BOLIVIA</div><h1>THE<br>STREET<br><span>IS YOURS.</span></h1><p>Prendas con carácter. Denim amplio, gráficos vintage, hoodies y capas para romper la rutina.</p><button class="primary" data-view="catalog">DESCUBRIR CATÁLOGO <b>↗</b></button><div class="home-index">URBAN DROP <strong>—</strong> COLLECTION Nº 001</div></div>
+ <div class="home-right"><div class="collage-main"><img src="assets/products/product-10.webp" alt="Chaqueta denim varsity"></div><div class="collage-small"><img src="assets/products/product-04.webp" alt="Polera gráfica"></div><div class="collage-cut"><img src="assets/products/product-05.webp" alt="Hoodie negro"></div><div class="round-stamp">NO<br>LIMITS<br><b>↗</b></div><div class="vertical-word">STREET CULTURE / 2026</div></div>
+ <div class="home-bottom"><span>01 — NEW DROP</span><span>DENIM / GRAPHICS / FLEECE / DAILY WEAR</span></div>
+</section>
+<section class="screen" id="catalog">
+ <div class="catalog-top"><div><div class="kicker">SELECCIÓN URBANA / 2026</div><h2>CATÁLOGO<span>.</span></h2></div><div class="catalog-count"><b id="itemTotal">16</b><small>PRENDAS<br>SELECCIONADAS</small></div></div>
+ <div class="catalog-tools"><div class="chips" id="filters"><button class="chip active" data-cat="all">TODOS</button><button class="chip" data-cat="poleras">POLERAS</button><button class="chip" data-cat="hoodies">HOODIES</button><button class="chip" data-cat="pantalones">PANTALONES</button><button class="chip" data-cat="chaquetas">CHAQUETAS</button><button class="chip" data-cat="polar">POLAR / FLEECE</button><button class="chip" data-cat="accesorios">ACCESORIOS</button></div><label class="search"><span>⌕</span><input id="searchInput" placeholder="Buscar prenda..." type="search"></label></div>
+ <div id="products" class="product-grid"></div>
+ <div class="catalog-bottom"><span>PRECIOS REFERENCIALES EN BOLIVIANOS (Bs)</span><span id="pageText">01 / 03</span><div><button id="prev" disabled>←</button><button id="next">→</button></div></div>
+</section>
+<section class="screen" id="season">
+ <div class="season-copy"><div class="kicker">COLD WEATHER / CAPSULE 02</div><h2>ABRIGO<br>CON <span>ACTITUD.</span></h2><p>La nueva capa urbana: texturas suaves, interiores afelpados y siluetas relajadas para los días fríos.</p><button class="primary" id="polarBtn">VER POLAR & FLEECE <b>↗</b></button><small>VISUALES ILUSTRATIVOS DE REFERENCIA</small></div>
+ <div class="season-cards"><article><img src="assets/reference/polar-zip.svg" alt="Polar con cierre"><b>01 / POLAR ZIP</b></article><article><img src="assets/reference/sherpa-jacket.svg" alt="Chaqueta sherpa"><b>02 / SHERPA</b></article><article><img src="assets/reference/fleece-hoodie.svg" alt="Hoodie fleece"><b>03 / FLEECE HOODIE</b></article><article><img src="assets/reference/thermal-pants.svg" alt="Jogger térmico"><b>04 / THERMAL PANTS</b></article></div>
+ <div class="season-foot">SOFT TEXTURE. STRONG ATTITUDE. <span>URBAN DROP®</span></div>
+</section>
+<section class="screen" id="about">
+ <div class="about-left"><div class="kicker">WHO WE ARE</div><h2>VISTE<br><span>A TU<br>MANERA.</span></h2><p>Urban Drop reúne prendas streetwear para quienes combinan estilos sin pedir permiso: denim, gráficos, prendas deportivas y abrigo urbano.</p><div class="about-social"><span>♪</span><div><small>SÍGUENOS EN TIKTOK</small><b>@novedadesymuchomas2</b><a href="https://www.tiktok.com/@novedadesymuchomas2" target="_blank" rel="noopener">VER PERFIL ↗</a></div></div><div class="about-social"><span>☎</span><div><small>TELÉFONO DE LA TIENDA</small><b>+591 77704529</b><small>Dato informativo</small></div></div><p class="fineprint">Precios y tallas de demostración, sujetos a confirmación. Las prendas reales usan las fotografías proporcionadas. Los modelos de polar se muestran como referencias visuales.</p></div>
+ <div class="about-right"><div class="about-type">URBAN<br><em>DROP</em><sup>®</sup></div><div class="about-circle">FIND<br>YOUR<br>FIT</div><div class="about-caption">STREETWEAR SUPPLY CO. / BOLIVIA</div></div>
+</section>
+</main>
+<footer class="footer"><span>UD® — URBAN DROP</span><span>STREETWEAR SUPPLY CO.</span><span>2026</span></footer>
+
+</div>
+<script src="js/app.js?v=4"></script>
+</body></html>

@@ -1,0 +1,19 @@
+{
+  "name": "Urban Drop Streetwear",
+  "short_name": "Urban Drop",
+  "description": "Catálogo streetwear y prendas de temporada.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#111214",
+  "theme_color": "#111214",
+  "lang": "es",
+  "icons": [
+    {
+      "src": "assets/icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
